@@ -8,16 +8,16 @@
         <title>Doccure - Register</title>
 		
 		<!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="{{asset('admin/assets/img/favicon.png')}}">
 
 		<!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{asset('admin/assets/css/bootstrap.min.css')}}">
 		
 		<!-- Fontawesome CSS -->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{asset('admin/assets/css/font-awesome.min.css')}}">
 		
 		<!-- Main CSS -->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="{{asset('admin/assets/css/style.css')}}">
 		
 		<!--[if lt IE 9]>
 			<script src="assets/js/html5shiv.min.js"></script>
@@ -32,7 +32,7 @@
             	<div class="container">
                 	<div class="loginbox">
                     	<div class="login-left">
-							<img class="img-fluid" src="assets/img/logo-white.png" alt="Logo">
+							<img class="img-fluid" src="{{URL::to('/admin/assets/img/logo-white.png')}}" alt="Logo">
                         </div>
                         <div class="login-right">
 							<div class="login-right-wrap">
@@ -71,7 +71,7 @@
 								</div>
 								<!-- /Social Login -->
 								
-								<div class="text-center dont-have">Already have an account? <a href="login.html">Login</a></div>
+								<div class="text-center dont-have">Already have an account? <a href="{{route('login')}}">Login</a></div>
 							</div>
                         </div>
                     </div>
@@ -81,14 +81,14 @@
 		<!-- /Main Wrapper -->
 		
 		<!-- jQuery -->
-        <script src="assets/js/jquery-3.2.1.min.js"></script>
+        <script src="{{asset('admin/assets/js/jquery-3.2.1.min.js')}}"></script>
 		
 		<!-- Bootstrap Core JS -->
-        <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="{{asset('admin/assets/js/popper.min.js')}}"></script>
+        <script src="{{asset('admin/assets/js/bootstrap.min.js')}}"></script>
 		
 		<!-- Custom JS -->
-		<script src="assets/js/script.js"></script>
+		<script src="{{asset('admin/assets/js/script.js')}}"></script>
 		
     </body>
 
